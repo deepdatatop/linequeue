@@ -5,10 +5,13 @@ package main
 
 import(
 	"fmt"
+	
 	"linequeue"
+	
 )
 
 func main(){
+
 	fmt.Println("line queue")
 	lq,flag := linequeue.SetFile( "c:\\data\\lnqueue",256,false )
 	fmt.Println( flag )
