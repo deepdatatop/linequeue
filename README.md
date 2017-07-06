@@ -4,8 +4,8 @@ file based line queue with lines counter
 package main
 
 import(
-	"fmt"
-	
+
+	"fmt"	
 	"linequeue"
 	
 )
@@ -33,3 +33,26 @@ func main(){
 		lq.CloseFile()
 	}
 }
+
+
+result:
+
+line queue
+
+true
+
+abcdefghi 9
+
+123456789 9
+
+ABCDEF 6
+
+0
+
+-----
+
+rollback
+
+ABCDEF 6
+
+6
