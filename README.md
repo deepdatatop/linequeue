@@ -26,8 +26,7 @@ func main(){
 		fmt.Println("rollback")
 		ln,n := lq.TakeOut()
 		fmt.Println( ln,n )
-		
-		lq.CloseFile()
 		fmt.Println( lq.GetLines() )
+		lq.CloseFile()
 	}
 }
